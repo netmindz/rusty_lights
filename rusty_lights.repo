@@ -1,0 +1,13 @@
+[rusty_lights]
+name=RustyLights for Fedora $releasever
+baseurl=https://netmindz.github.io/rusty_lights/fedora/fc$releasever/$basearch
+enabled=1
+gpgcheck=0
+repo_gpgcheck=0
+metadata_expire=300
+
+[rusty_lights-source]
+name=RustyLights for Fedora $releasever - Source
+baseurl=https://netmindz.github.io/rusty_lights/fedora/fc$releasever/source
+enabled=0
+gpgcheck=0
